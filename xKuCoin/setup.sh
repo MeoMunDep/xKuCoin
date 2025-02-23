@@ -112,7 +112,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            cd xkucoin && node meomundep
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
